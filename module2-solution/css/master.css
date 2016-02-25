@@ -11,7 +11,7 @@ body {
 h1 {
   text-align: center;
   font-size: 1.75em;
-  margin-bottom: 2em;
+  margin: 1em;
 }
 
 div div, h3 {
@@ -55,8 +55,9 @@ p {
 
 @media (max-width: 767px) { /* mobile */
   div div {
-    width: 93%;
-    margin: 3%;
+    width: 92%;
+    margin-left: 4%;
+    margin-bottom: 4%;
   }
 }
 
