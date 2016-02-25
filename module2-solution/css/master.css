@@ -22,6 +22,7 @@ div div {
   background-color: Grey;
   padding: 0;
   float: left;
+  /*min-width: 10em;*/
 }
 
 #chicken-menu h3 {
@@ -59,13 +60,6 @@ p {
   }
 }
 
-@media (min-width: 992px) { /* screen */
-  div div {
-    width: 30%;
-    margin-left: 2.5%;
-  }
-}
-
 @media (min-width: 768px) and (max-width: 991px) { /* tablet */
   div div {
     width: 45%;
@@ -75,5 +69,12 @@ p {
 
   #sushi-menu {
     width: 93.33%;
+  }
+}
+
+@media (min-width: 992px) { /* screen */
+  div div {
+    width: 30%;
+    margin-left: 2.5%;
   }
 }
