@@ -1,19 +1,27 @@
 * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
   font-family: Verdana, sans-serif;
-  box-sizing: content-box;
 }
 
 h1 {
   text-align: center;
+  font-size: 1.75em;
+  margin-bottom: 2em;
 }
 
 div div, h3 {
-  border: 3px solid black;
+  border: 1px solid Black;
 }
 
 div div {
   background-color: Grey;
-  margin: 2% 5%;
+  padding: 0;
+  float: left;
 }
 
 #chicken-menu h3 {
@@ -25,19 +33,47 @@ div div {
   color: White;
 }
 
-#suchi-menu h3 {
+#sushi-menu h3 {
   background-color: Wheat;
 }
 
 h3 {
   float: right;
-  width: 40%;
+  width: 10em;
+  max-width: 100%;
   text-align: center;
-  margin: -2px -2px 10px 0;
+  margin: -1px -1px 10px 0;
   padding: 0.4em 0;
+  font-size: 1.25em;
 }
 
 p {
   clear: both;
   margin: 20px;
+}
+
+@media (max-width: 767px) { /* mobile */
+  div div {
+    width: 93%;
+    margin: 3%;
+  }
+}
+
+@media (min-width: 992px) { /* screen */
+  div div {
+    width: 30%;
+    margin-left: 2.5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { /* tablet */
+  div div {
+    width: 45%;
+    margin-left: 3.33%;
+    margin-bottom: 3.33%;
+  }
+
+  #sushi-menu {
+    width: 93.33%;
+  }
 }
