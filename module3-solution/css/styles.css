@@ -1,0 +1,35 @@
+/*.navbar {
+  background-color: lightgrey;
+}*/
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+}
+
+a h1 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+#main-content {
+  margin-top: 70px;
+  height: 1000px;
+}
+
+.menuitem {
+  background-color: lightblue;
+  margin-bottom: 25px;
+  padding: 5px 15px;
+}
+
+h3 {
+  position: relative;
+}
+h3 span {
+  position: absolute;
+  top: -250px;
+}
